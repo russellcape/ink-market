@@ -1,21 +1,37 @@
-.Banner{
+.Banner {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: #374466;
   color: #A88E0A;
 }
 
-.BannerTitle{
+.BannerTitle {
   margin: 0.3em;
+  display: flex;
 }
 
-.Location{
-  display: flex;
-  flex-direction: row;
+
+.Background {
+  
 }
 
-.Search{
+.HomeForms {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Location {
+  margin: 1em 1em 0.5em 1em;
+}
+
+.FindLocationButton {
+  margin-left: 1em;
+}
+
+.Search {
+  margin: 0.5em 1em;
+}
+
+.SearchButton {
+  margin-left: 1em;
 }

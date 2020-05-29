@@ -6,22 +6,26 @@ function App() {
     <div>
       <header className="Banner">
         <h1 className="BannerTitle">Ink Market</h1>
-        <div className="BannerForms">
+      </header>
+
+      <div className="Background">
+        <img src="../images/tatbg.jpg" alt="Find the path"/>
+      </div>
+
+      <div className="HomeForms">
         <form className="Location">
           <input type="text" placeholder="My Location"/>
-            <button>
+            <button className="FindLocationButton">
               Find Me
             </button>
           </form>
-          <br/>
           <form className="Search">
             <input type="text" placeholder="Style, Shop, Artist"/>
-            <button>
+            <button className="SearchButton">
               Search
             </button>
           </form>
         </div>
-      </header>
     </div>
   );
 }
