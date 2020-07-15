@@ -9,7 +9,7 @@ function App() {
       </header>
 
       <div className="Background">
-        <img src="../images/tatbg.jpg" alt="Find the path"/>
+        <img src="../images/tatbg.jpg" alt="Background Image"/>
       </div>
 
       <div className="HomeForms">
